@@ -754,7 +754,7 @@ a {
 }
 
 .flip-box .blue-box .flip-box-back {
-  background-color: #032a58;
+  background-color: #A30529;
 
 
   -ms-transform: rotateX(180deg);
@@ -785,7 +785,7 @@ a {
 }
 
 .flip-box-back {
-  background-color: #032a58;
+  background-color: #A30529;
   transform: rotateX(180deg);
 }
 
