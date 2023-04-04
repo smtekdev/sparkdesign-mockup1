@@ -198,18 +198,18 @@ ol, ul {
 .btn.btn-blue-pink {background:#384141; border-color: #384141; color: #fff;font-size: 15px;}
 .btn.btn-blue-pink:hover, .btn.btn-blue-pink:focus {background-color: #e23939; border-color: #e23939; color: #FFFFFF;font-size: 15px;}
 /* button transparent */
-.btn.btn-gradient {background: -webkit-linear-gradient(90deg, #3264f5, #7202bb);
+.btn.btn-gradient {background: -webkit-linear-gradient(90deg, #DA012D, #A30529);
     background: -webkit-gradient(linear, left top, right top, color-stop(#3264f5), color-stop(#7202bb));
     background: -webkit-linear-gradient(left, #3264f5, #7202bb);
     background: -o-linear-gradient(left, #3264f5, #7202bb);
     background: -webkit-gradient(linear, left top, right top, from(#3264f5), to(#7202bb));
-    background: linear-gradient(90deg, #3264f5, #7202bb); ; border-color: #FFFFFF; color:#FFFFFF; font-size: 15px;}
+    background: linear-gradient(90deg, #DA012D, #A30529); ; border-color: #FFFFFF; color:#FFFFFF; font-size: 15px;}
 .btn.btn-gradient:hover, .btn.btn-gradient:focus { background: -webkit-linear-gradient(90deg, #7202bb, #3264f5);
     background: -webkit-gradient(linear, left top, right top, color-stop(#7202bb), color-stop(#3264f5));
     background: -webkit-linear-gradient(left, #7202bb, #3264f5);
     background: -o-linear-gradient(left, #7202bb, #3264f5);
     background: -webkit-gradient(linear, left top, right top, from(#7202bb), to(#3264f5));
-    background: linear-gradient(90deg, #7202bb, #3264f5);; color: #FFFFFF;font-size: 15px;  }
+    background: linear-gradient(90deg, #DA012D, #A30529);; color: #FFFFFF;font-size: 15px;  }
 
 /* button rounded */
 .btn.btn-rounded {border-radius: 50px}
@@ -258,7 +258,7 @@ a:not([href]):not([tabindex]) {
     background: #3264f5;
     background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
     background: -webkit-linear-gradient(left, #3264f5 2%,#7202bb 82%);
-    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+    background: linear-gradient(to right,#DA012D 2%,#A30529 82%);
 }
 .blue-bg, .blue-bg:hover  {
     background-color: #00bcd4;
@@ -563,7 +563,7 @@ a:not([href]):not([tabindex]) {
     background: #3264f5;
     background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
     background: -webkit-linear-gradient(left, #3264f5 2%,#7202bb 82%);
-    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+    background: linear-gradient(to right, #DA012D 2%,#A30529 82%);
     transition: width .3s;
     border-radius: 50px;
     transform-origin: right;
@@ -1162,7 +1162,7 @@ ul.social-icons-simple li a {
     background: #3264f5;
     background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
     background: -webkit-linear-gradient(left, #3264f5 2%, #7202bb 82%);
-    background: linear-gradient(to right, #3264f5 2%, #7202bb 82%);
+    background: linear-gradient(to right, #DA012D 2%, #A30529 82%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@colorPrimary', endColorstr='@colorSecondary', GradientType=1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1317,12 +1317,12 @@ ul.social-icons-simple li a {
 }
 
 .gallery-filter-5 span:hover {
-    color: #00bcd4;
+    color: #DA012D;
 }
 
 .gallery-filter-5 .active {
-    color: #00bcd4;
-    border: 1px solid #00bcd4;
+    color: #A30529;
+    border: 1px solid #A30529;
     background-color: transparent;
 }
 
@@ -1389,7 +1389,7 @@ ul.social-icons-simple li a {
      background: rgba(50, 100, 245, 0.63);
     background: -moz-linear-gradient(left, rgba(50, 100, 245, 0.61) 2%, rgba(114, 2, 187, 0.6) 82%);
     background: -webkit-linear-gradient(left, rgba(50, 100, 245, 0.61) 2%, rgba(114, 2, 187, 0.6) 82%);
-    background: linear-gradient(to right, rgba(50, 100, 245, 0.61) 2%, rgba(114, 2, 187, 0.6) 82%);
+    background: linear-gradient(to right, #da012db5 2%, #a3052982 52%);
     padding: 15px;
     opacity: 0;
     display: flex;
