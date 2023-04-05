@@ -261,10 +261,10 @@ a:not([href]):not([tabindex]) {
     background: linear-gradient(to right,#DA012D 2%,#A30529 82%);
 }
 .blue-bg, .blue-bg:hover  {
-    background-color: #00bcd4;
+    background-color: #a30529;
 }
 .black-bg, .black-bg:hover {
-    background-color: #18191d;
+    background-color: #a30529;
 }
 
 .text-shadow {text-shadow: 2px 2px 4px #000000;}

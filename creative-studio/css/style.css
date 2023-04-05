@@ -86,7 +86,7 @@ p {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    color: #535353;
+    color: #ffffff;
 }
 .line-height-heading {
     line-height: 1.2;
@@ -2154,7 +2154,7 @@ ul.social_icon li a.google:focus {
     left: 0;
     width:0;
     height:0;
-    border: 55px solid #f1c30f;
+    border: 55px solid #a30529;
     border-right-color: transparent;
     border-bottom-color: transparent;
     z-index: 0;
@@ -2203,8 +2203,8 @@ ul.social_icon li a.google:focus {
     color: #fff;
 }
 .pricing-item .btn-blue {
-    border-color: #84a1d2;
-    background-color: #84a1d2;
+    border-color: #a30529;
+    background-color: #a30529;
     color: #fff;
 }
 .pricing-item .btn-pink:focus, .pricing-item .btn-pink:hover, .pricing-item .btn-yellow:focus, .pricing-item .btn-yellow:hover, .pricing-item .btn-blue:focus, .pricing-item .btn-blue:hover {
