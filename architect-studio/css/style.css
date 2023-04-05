@@ -185,7 +185,7 @@ ul{margin-bottom: 0;}
     color: #202020;
 }
 .text-yellow{
-    color: #fed51b !important;
+    color: #a30529 !important;
 }
 .heading span{
     display: block;
@@ -271,7 +271,7 @@ ul{margin-bottom: 0;}
     position: absolute;
     width: 25%;
     height: 100%;
-    background-color: #fed51b;
+    background-color: #a30529;
     transform: translateY(150%);
     border-radius: 50%;
     transition: 0.5s;
@@ -322,7 +322,7 @@ ul{margin-bottom: 0;}
     overflow: hidden;
     z-index: 1;
     background-color: transparent;
-    color: #202020;
+    color:  #A30529;
     font-size: 13px;
     padding: 10px 30px 10px 30px;
     transition: .8s ease;
@@ -956,7 +956,7 @@ header .main-navigation nav .navbar-nav .nav-item .nav-link.active span{
 }
 
 .slider-area .bg-overlay{
-    background-color:#fed51b;
+    background-color: #A30529;
     width: 84%;
     left: 0;
 }
@@ -966,7 +966,7 @@ header .main-navigation nav .navbar-nav .nav-item .nav-link.active span{
     padding-bottom: 100px;
 }
 .slider-area .container .inner-bg-overlay{
-    background-color:#fed51b;
+    background-color: #A30529;
     position: absolute;
     /*width: 50%;*/
     left: 0;
@@ -988,7 +988,7 @@ header .main-navigation nav .navbar-nav .nav-item .nav-link.active span{
     overflow: hidden;
 }
 .slider-area .slider-detail .slider-slide .slider-inner-content .slide-heading{
-    color: #202020;
+    color: #ffffff;
     font-family: Oswald, sans-serif;
     font-size: 60px;
     font-weight: 700;
@@ -998,7 +998,7 @@ header .main-navigation nav .navbar-nav .nav-item .nav-link.active span{
     display: block;
 }
 .slider-area .slider-detail .slider-slide .slider-inner-content .slide-text{
-    color: #202020;
+    color: #fff;
     font-weight: 300;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -1085,7 +1085,7 @@ header .main-navigation nav .navbar-nav .nav-item .nav-link.active span{
     transition: .5s ease;
 }
 .about-sec .services-area .services .service-card .icon-holder i{
-    color: #fed51b;
+    color: #a30529;
     font-size: 100px;
 }
 .about-sec .services-area .services:hover .service-card .icon-holder{
@@ -1180,17 +1180,17 @@ header .main-navigation nav .navbar-nav .nav-item .nav-link.active span{
 ====================================== */
 .team-sec{}
 .team-sec .left-overlay{
-    background-color: #fed51b;
+    background-color: #a30529;
 }
 .team-sec .inner-team-sec{
-    background-color: #fed51b;
+    background-color: #a30529;
 }
 .team-sec .heading{
     margin-bottom: 30px;
-    color: #202020;
+    color: #fff;
 }
 .team-sec .text{
-    color: #202020;
+    color: #fff;
 }
 .team-sec .inner-team-sec .team-area{
     width: 80%;
