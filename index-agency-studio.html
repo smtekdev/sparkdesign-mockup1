@@ -36,9 +36,89 @@
     <link rel="stylesheet" href="creative-studio/css/owl.carousel.min.css">
     <link rel="stylesheet" href="creative-studio/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="classic-business/css/style.css">
-    
+    <link rel="stylesheet" href="education/css/line-awesome.min.css">
+
+    <link rel="stylesheet" href="education/css/style.css">
+    <link rel="stylesheet" href="brand-agency/css/style.css">
 
     <style>
+.header-follow {
+  top: 40%;
+  left: 96%;
+  width: 20px;
+  height: 200px;
+  position: fixed;
+  margin-top: -100px;
+  z-index: 99;
+}
+
+@media (max-width: 767px) {
+  .header-follow {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-follow {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header-follow {
+    display: none;
+  }
+}
+
+.header-follow ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-follow ul li {
+  display: block;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 10px;
+  transition: all 300ms;
+}
+
+.header-follow ul li .fa {
+  color: #fff;
+}
+
+.header-follow ul li:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.header-follow p {
+  top: 91px;
+  left: -24px;
+  width: 68px;
+  height: 20px;
+  line-height: 1.2;
+  white-space: nowrap;
+  position: relative;
+  transform: rotate(-90deg);
+  margin: 0;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.header-follow p:after {
+  top: 9px;
+  right: -66px;
+  width: 41px;
+  height: 1px;
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+}
 
     </style>
    
@@ -73,6 +153,29 @@
     <!-- Header Section -->
 
     <!-- header -->
+    <div class="header-follow">
+        <ul class="social">
+            <li>
+                <a class="cursor-alter" href="https://www.westcoastanimations.com/contact-us"><img id="price" src="assets/images/pricingquote.webp" style="max-width: 264%; margin-left: -57%;" alt="Get A Quote"></a>
+            </li>
+                        <li>
+                <a class="cursor-alter" href="https://www.bark.com/en/us/company/westcoast-animations/2jgl4/"><img src="assets/images/bark (1).png" id="ba" alt="Bark"></a>
+            </li>
+            <li>
+                <a class="cursor-alter" href="https://www.trustpilot.com/review/westcoastanimations.com"><img id="ta" src="assets/images/download (4).png" alt="Trustpilot"></a>
+            </li>
+            <li>
+                <a class="cursor-alter" href="https://www.facebook.com/WestcoastAnimations/"><img id="fb" src="assets/images/fb.webp" alt="Facebook"></a>
+            </li>
+            <li>
+                <a class="cursor-alter" href="https://www.linkedin.com/company/westcoastanimation/"><img id="ln" src="assets/images/174857.png" alt="Linkedin"></a>
+            </li>
+            <li>
+                <a class="cursor-alter" href="https://www.instagram.com/westcoastanimations/"><img id="ig" src="assets/images/instaicon.webp" alt="Instagram"></a>
+            </li>
+        </ul>
+        <p id="fo">Follow Us</p>
+    </div>
     <header class="site-header">
         <nav class="navbar navbar-expand-lg nav-bottom-line center-brand static-nav">
             <div class="container">
@@ -100,7 +203,7 @@
                             <a class="nav-link pagescroll" href="services.html">Website Design</a>
                         </li>
                     </ul>
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto" >
                         <li class="nav-item">
                             <a class="nav-link pagescroll" href="app-development.html">App Development</a>
                         </li>
@@ -117,14 +220,14 @@
                 </div>
             </div>
 
-            <!--side menu open button-->
+  
             <!-- <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
                 <span></span> <span></span> <span></span>
             </a> -->
         </nav>
 
         <!-- side menu -->
-        <div class="side-menu">
+        <!-- <div class="side-menu">
             <div class="inner-wrapper">
                 <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
                 <nav class="side-nav w-100">
@@ -160,8 +263,8 @@
                     <p class="whitecolor">&copy; 2023 Studio. Made With Love by themesindustry</p>
                 </div>
             </div>
-        </div>
-        <a id="close_side_menu" href="javascript:void(0);"></a>
+        </div> -->
+        <!-- <a id="close_side_menu" href="javascript:void(0);"></a> -->
         <!-- End side menu -->
     </header>
     <!-- header -->
@@ -214,7 +317,7 @@
 
                             <!-- layer nr. 14 -->
                             <div class="tp-caption rev-btn" id="layers-twel" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['70','70','70','70']" data-actions='' data-responsive_offset="on" data-responsive="off" data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' style="z-index: 999;padding-top: 25px;">
-                                <a href="#skill_section" class="btn btn-blue-black btn-rounded btn-large bg_before_navy text-capitalize scroll" style="line-height: 24px; margin-top:30%;background: linear-gradient(linear-gradient(90deg, #DA012D, #A30529)) !important;">get started now </a>
+                                <a href="#skill_section" class="btn btn-blue-black btn-rounded btn-large bg_before_navy text-capitalize scroll" style="line-height: 24px; margin-top:30%; margin-left:-97px;background: linear-gradient(linear-gradient(90deg, #DA012D, #A30529)) !important;">get started now </a>
                             </div>
 
                             <!-- layer nr. 15 -->
@@ -906,21 +1009,116 @@
             </div>
         </div>
     </section>
-    <section class="services-section" id="services">
+    <section id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-8 offset-lg-2 text-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="main-title wow fadeIn" data-wow-delay="300ms">
+                                <!-- <h5> Creative Services </h5> -->
+                                <h2> Our Services </h2>
+                                <!-- <p>Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.                    </p> -->
+                            </div>
+                        </div>
+                    </div>                   
+                     <!-- <p class="sub-heading text-black">Lorem ipsum dolor sit amet, consectetur adipi elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut quis  in voluptate velit esse cillum.</p> -->
+                </div>
+            </div>
+    
+            <div class="row mt-4 feature-card" >
+    
+                <div class="col-sm-12 col-md-6 col-lg-4 col-height-features">
+                    <div class="card box text-center">
+                        <div class="card-body box__image">
+                            <div class="feature-icon green-color">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <h2 class="card-title">Web Design</h2>
+                            <p class="card-text sub-heading">Web Designers are responsible for designing and building the interface, navigation and aesthetic of websites for businesses and clients. Likely working in the IT team</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-12 col-md-6 col-lg-4 col-height-features">
+                    <div class="card box text-center">
+                        <div class="card-body box__image">
+                            <div class="feature-icon blue-color">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <h2 class="card-title">SEO</h2>
+                            <p class="card-text sub-heading">SEO marketing is a subset of digital marketing that involves the optimization of websites and web pages for major search engines like Google.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-12 col-md-6 col-lg-4 col-height-features">
+                    <div class="card box text-center">
+                        <div class="card-body box__image">
+                            <div class="feature-icon green-color">
+                                <i class="fas fa-edit"></i>
+                            </div>
+                            <h2 class="card-title">Graphic Design</h2>
+                            <p class="card-text sub-heading">Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-12 col-md-6 col-lg-4 col-height-features">
+                    <div class="card box text-center">
+                        <div class="card-body box__image">
+                            <div class="feature-icon blue-color">
+                                <i class="fa fa-mobile"></i>
+                            </div>
+                            <h2 class="card-title">App Development</h2>
+                            <p class="card-text sub-heading">Mobile application development is the process of creating software applications that run on a mobile device</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class=" col-sm-12 col-md-6 col-lg-4 col-height-features">
+                    <div class="card box text-center">
+                        <div class="card-body box__image">
+                            <div class="feature-icon green-color">
+                                <i class="fas fa-share"></i>
+                            </div>
+                            <h2 class="card-title">Social Media Marketing</h2>
+                            <p class="card-text sub-heading">Social media marketing is the use of social media platforms to connect with your audience to build your brand, increase sales, and drive website traffic.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-12 col-md-6 col-lg-4 col-height-features">
+                    <div class="card box text-center">
+                        <div class="card-body box__image">
+                            <div class="feature-icon blue-color">
+                                <i class="fas fa-globe-americas"></i>
+                            </div>
+                            <h2 class="card-title">UX/UI Design</h2>
+                            <p class="card-text sub-heading">UI UX designers create the user interface for an app, website, or other interactive media. Their work includes collaborating with product managers and engineers </p>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <!-- <section class="services-section" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="main-title wow fadeIn" data-wow-delay="300ms">
-                        <h5> Creative Services </h5>
-                        <h2> Our Services </h2>
-                        <!-- <p>Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.                    </p> -->
+                        <h5> Creative Services </h5> -->
+                        <!-- <h2> Our Services </h2>
+                        <p>Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.                    </p> 
                     </div>
                 </div>
             </div>
-           <!-- <h2 class="wow fadeInDown" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInDown;">Our Exclusive Services</h2> -->
-           <!-- <p class="wow fadeInDown" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInDown;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
-           <div class="row no-gutters ">
-              <!-- Box-1 -->
+            <h2 class="wow fadeInDown" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInDown;">Our Exclusive Services</h2> 
+            <p class="wow fadeInDown" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInDown;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+           <!-- <div class="row no-gutters ">
+      
               <div class="col-lg-4 col-md-4 col-sm-12 flip-boxes wow fadeInLeft" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInLeft;">
                  <div class="flip-box">
                     <div class="flip-box-inner">
@@ -939,7 +1137,7 @@ Web Designers are responsible for designing and building the interface, navigati
                     </div>
                  </div>
               </div>
-              <!-- Box-2 -->
+      
               <div class="col-lg-4 col-md-4 col-sm-12 flip-boxes wow fadeIn" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeIn;">
                  <div class="flip-box">
                     <div class="flip-box-inner blue-box">
@@ -956,7 +1154,7 @@ Web Designers are responsible for designing and building the interface, navigati
                     </div>
                  </div>
               </div>
-              <!-- Box-3 -->
+        
               <div class="col-lg-4 col-md-4 col-sm-12 flip-boxes wow fadeInRight" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInRight;">
                  <div class="flip-box">
                     <div class="flip-box-inner">
@@ -974,9 +1172,9 @@ Web Designers are responsible for designing and building the interface, navigati
                  </div>
               </div>
            </div>
-        </div>
+        </div> -->
         
-     </section>
+     </section> 
     <!-- /Portfolio Section -->
 
     <!-- <section class="stats_section big_padding">
@@ -1935,8 +2133,67 @@ Web Designers are responsible for designing and building the interface, navigati
     <!-- /Blog Section -->
 
     <!--Contact Us -->
-
-    <section id="contactus" class="big_padding bg-light">
+    <section class="contact-section" id="contact" >
+        <div class="container">
+           <div class="row no-gutters form-section">
+              <div class="col-lg-7 col-md-12 col-sm-12 wow fadeInLeft" data-wow-delay="400ms">
+                 <h2 class="heading">Get a Free Quote</h2>
+                 <form class="contact-form wow fadeInLeft" data-wow-delay="400ms" id="contact-form-data">
+                    <div class="row">
+                       <div class="col-12" id="result"></div>
+                       <div class="col-lg-6 col-md-12 col-sm-12 text-field">
+                          <div class="form-group">
+                             <input class="form-control" type="email" placeholder="Your Name" required="" name="userName">
+                          </div>
+                       </div>
+                       <div class="col-lg-6 col-md-12 col-sm-12">
+                          <div class="form-group">
+                             <input class="form-control" type="email" placeholder="Email Address*" required="" name="userEmail">
+                          </div>
+                       </div>
+                       <div class="col-lg-12 col-md-12 col-sm-12">
+                          <div class="form-group">
+                             <textarea class="form-control" placeholder="Write your message here" name="userMessage"></textarea>
+                          </div>
+                       </div>
+                       <div class="button-center">
+                          <a class="btn button btn-rounded yellow-btn contact_btn" href="javascript:void(0);">
+                          Send Message
+                          </a>
+                       </div>
+                    </div>
+                 </form>
+              </div>
+              <div class="col-lg-5 col-md-12 col-sm-12 wow fadeInRight" data-wow-delay="400ms">
+                 <p class="text">Ready to grow your business? Fill out our contact us form today! We at the design spark know what it takes to see your business thrive.
+                 </p>
+                 <div class="media">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="media-body">
+                       <p class="text">123 Park Avenue, New York, <br>United States</p>
+                    </div>
+                 </div>
+                 <div class="media">
+                    <i class="fas fa-phone"></i>
+                    <div class="media-body">
+                       <ul>
+                          <li class="text">+1 631 1234 5678</li>
+                          <li class="text"><span>(800) 123 456 789</span></li>
+                       </ul>
+                    </div>
+                 </div>
+                 <div class="media">
+                    <i class="far fa-paper-plane"></i>
+                    <div class="media-body">
+                       <p class="text"> info@thedesignspark.com</p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <!-- Container End -->
+     </section>
+    <!-- <section id="contactus" class="big_padding bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -1980,7 +2237,7 @@ Web Designers are responsible for designing and building the interface, navigati
                     </div>
                 </div>
                 <div class="col-md-8 heading_space wow fadeInRight" data-wow-delay="450ms">
-                    <!-- id contact-form-->
+             
                     <form class="findus contact-form" id="contact-form-data">
                         <div class="row">
                             <div class="col-md-12 col-sm-12">
@@ -2016,7 +2273,7 @@ Web Designers are responsible for designing and building the interface, navigati
             </div>
       
         </div>
-    </section>
+    </section> -->
     <!--Contact Us -->
 
     <!-- Footer Section -->
@@ -2080,7 +2337,7 @@ Web Designers are responsible for designing and building the interface, navigati
 
                 </ul>
 
-                <p class="text-center default_text open_sans white_color">&copy; 2023 The Spark Design,  All rights reserved. </p>
+                <p class="text-center default_text open_sans white_color">&copy; 2023 The Design Spark,  All rights reserved. </p>
 
             </div>
 
